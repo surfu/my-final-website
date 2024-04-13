@@ -431,6 +431,10 @@ footer{
     color: var(--col-g) ;
 
 }
+.content{
+    padding: 0 ;
+    margin: 0;
+}
 .first{
     width: 300px;
     margin: 0 30px;
