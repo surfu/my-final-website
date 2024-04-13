@@ -1,0 +1,25 @@
+https://html5book.ru - довідник
+https://css.in.ua - довідник
+
+https://undraw.co/illustrations - векторні ілюстрації
+https://unsplash.com - якісні зображення
+https://iconscout.com/ - ілюстрації
+
+https://icons8.com/icons - іконки
+https://www.flaticon.com - іконки
+https://www.svgrepo.com/ - векторні іконки
+
+https://fonts.google.com - шрифти
+
+https://fontawesome.com - іконочний шрифт
+https://fontello.com - іконочний шрифт
+
+
+https://www.colorzilla.com/gradient-editor/ - генератор градієнта
+https://morphismail.github.io/myInstruments/ - генератор стилів
+https://trianglify.io/ - генератор
+
+https://tproger.ru/translations/how-css-flexbox-works/ - про flexbox
+https://flexboxfroggy.com/#ru - гра flexbox
+
+https://embedresponsively.com - для вставки адаптиного відео
