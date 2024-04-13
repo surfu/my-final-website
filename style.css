@@ -57,14 +57,25 @@ button{
     font-weight: 400;
     line-height: 58px;
 }
+.header li{
+    list-style: none;
+
+}
 .header .pages{
     width: 603px;
+}
+.pages li{
+    background-color: var(--col-g);
+    width: 150px;
+    border: var(--col-d) 1px solid;
+    padding: 10px 20px;
 }
 .header .pages a{
     font-family: var(--font-b);
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
+    background-color: var(--col-g);
 }
 .header .active{
     background-color: rgba(0, 0, 0, 0.113); 
@@ -72,7 +83,16 @@ button{
     border-bottom: 3px solid rgb(255, 255, 255);
     border-top: 5px solid rgb(255, 255, 255);
 }
+.pages {
+    margin-top: 52px ;
+    margin-left: -90px;
+    display: none;
+}
+.menu:hover .pages{
+    display: block;
+    position: absolute;
 
+}
 .photo, .photoa{
     background: url("/img/back.png") no-repeat;
     height: 968px;
@@ -178,9 +198,11 @@ button{
     box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.36);margin: 0 25px 0 45px;
 }
 .who .info{
+    text-wrap: wrap;
     width: 655px;
 }
 .who .info h2{
+    text-wrap: wrap;
     font-family: var(--font-i);
     width: 584px;
     color:var(--col-acs);
@@ -189,6 +211,7 @@ button{
     line-height: 87px;
 }
 .who .info h4{
+    text-wrap: wrap;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
@@ -293,12 +316,14 @@ footer{
     background-color: var(--col-acs);
 }
 .footer{
-    justify-content: space-around;
+    padding-top: 70px;
+    justify-content: center;
+    flex-direction: row;
     color: var(--col-w);
-    padding: 100px 70px;
 }
 .footer .info{
-    width: 396px;
+    padding-left: 20%;
+    width: 800px;
 }
 .footer .info img{
     margin: 61px 2px 0px;
@@ -315,7 +340,7 @@ footer{
 }
 .footer .nav{
     flex-direction: column;
-    width: 184px;
+    padding-left: 20%;
 }.footer .nav a{
     font-size: 24px;
     font-weight: 400;
